@@ -7,7 +7,7 @@ cursos = ["Introdução ao  Wordpress",
 
 print(cursos)
 
-print(f"A lista de cursos tem {len(cursos)} cursos")  
+print(f"A lista de cursos tem {len(cursos)} cursos") #len(), para indicar os quantos objetos tem na lista 
 indice = int(input("Digite um número:\n"))
 
 if indice < len(cursos):
